@@ -2,14 +2,15 @@
     "version": 2,
     "builds": [
         {
-            "src": "./backend/server.js",
-            "use": "@vercel/node"
+          "src": "./backend/server.js",
+          "use": "@vercel/node",
+          "buildCommand": "yarn build"
         },
         {
-            "src": "./frotend/build", 
-            "use": "@vercel/static"
+          "src": "./frontend/build",
+          "use": "@vercel/static"
         }
-    ],
+      ],
    
     "rewrites": [
         {
