@@ -417,7 +417,7 @@ function Dashboard() {
         type: "pie",
         name: "Share",
         data: [
-          ["Out of Stock", products.length - OutOfStock],
+          ["Out of Stock", products?.length - OutOfStock],
 
           {
             name: "Out of Stock",
@@ -495,7 +495,7 @@ function Dashboard() {
                   </div>
                   <div className={classes.textContainer}>
                     <Typography variant="body2" className={classes.number}>
-                      {products && products.length}
+                      {products && products?.length}
                     </Typography>
                   </div>
                 </div>
@@ -527,7 +527,7 @@ function Dashboard() {
                   </div>
                   <div className={classes.textContainer}>
                     <Typography variant="body2" className={classes.number}>
-                      {orders && orders.length}
+                      {orders && orders?.length}
                     </Typography>
                   </div>
                 </div>
@@ -559,7 +559,7 @@ function Dashboard() {
                   </div>
                   <div className={classes.textContainer}>
                     <Typography variant="body2" className={classes.number}>
-                      {users && users.length}
+                      {users && users?.length}
                     </Typography>
                   </div>
                 </div>
@@ -599,7 +599,7 @@ function Dashboard() {
                   </div>
                   <div className={classes.textContainer}>
                     <Typography variant="body2" className={classes.number}>
-                      ₹{totalAmount.toFixed(2)}
+                      {totalAmount.toFixed(2)}PKR
                     </Typography>
                   </div>
                 </div>

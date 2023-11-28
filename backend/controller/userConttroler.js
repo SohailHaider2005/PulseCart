@@ -15,8 +15,6 @@ exports.registerUser = asyncWrapper(async (req, res) => {
     crop: "scale",
   });
 
-
-
   const { name, email, password } = req.body;
   const user = await userModel.create({
     name,
@@ -30,6 +28,7 @@ exports.registerUser = asyncWrapper(async (req, res) => {
 
   // sending the res and staus code along with token using sendJWtToken method
   sendJWtToken(user, 201, res);
+  
 });
 
 // Login User >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

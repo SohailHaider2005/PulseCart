@@ -89,15 +89,15 @@ const slides = [
   {
     image: require("../../Image/Cricket-wepon/img2.png"),
     quote:
-      "Unleash Your Passion for Cricket and Embrace the Thrill of the Game",
+      "Unleash Your Passion for Nike",
     saleText:
-      "Get in the game with up to 50% off on a wide range of cricket gear's",
+      "Get in the game with up to 50% off on a wide range of hottest Nike shoes",
     productText: "Shop Now",
   },
   {
     image: require("../../Image/Cricket-wepon/03.jpg"),
     quote:
-      "Experience the Unparalleled Excitement and Achieve Victory with Our Premium Cricket Equipment",
+      "Experience the latest technological marvels of our time in Affordable rates!",
     saleText:
       "Limited Time Offer: Don't miss out on the opportunity to upgrade your game",
     productText: "Buy Now",

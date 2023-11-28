@@ -9,11 +9,6 @@ const cors = require("cors");
 require("dotenv").config({ path: "./config/config.env" });
 
 
-
-
-
-
-
 // routes
 
 const user = require("./route/userRoute");
@@ -23,12 +18,13 @@ const payment = require("./route/paymentRoute");
 
 // for req.cookie to get token while autentication
 app.use(cookieParser());
+app.use(cors());
 app.use(express.json());
 app.use(bodyParser.json({ limit: "50mb" }));
 app.use(bodyParser.urlencoded({ limit: "50mb", extended: true }));
 app.use(fileUpload());
 app.use(errorMiddleware);
-app.use(cors());
+
 
 app.use("/api/v1", product);
 app.use("/api/v1", user);

@@ -1,16 +1,15 @@
 // this method will take user Data status code and res =>  Then Create Token and will saving in cookie ans send
 
 const sendJWtToken  = (user , statusCode , res) =>{
-   
-
 ;
     const token = user.getJWTToken(); //every user has access all userModel methods
 
      // options for cookie
+     const cookieExpire = 7; // Default to 7 days if not defined
     const options = {
         expires: new Date(
             // expiry date from now to  + process.env.COOKIE_EXPIRE (eg 5day) + convert it mili sec
-            Date.now() + process.env.COOKIE_EXPIRE * 24 * 60 * 60 * 1000
+            Date.now() + cookieExpire * 24 * 60 * 60 * 1000
         ),
         httpOnly: true,
     };

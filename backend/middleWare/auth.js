@@ -13,7 +13,7 @@ if(!token){
 }
 
 // now verify that token with seceret key . 
-    const deCodeToken = jwt.verify(token, process.env.JWT_SECRET);
+    const deCodeToken = jwt.verify(token, 'topsecret');
 
     // now get user id from deCodeToken because when we make token in userSchema so we added userID in payLoad section. with that id get user and store inside req object .
 

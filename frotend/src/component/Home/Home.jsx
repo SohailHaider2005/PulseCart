@@ -30,7 +30,7 @@ function Home() {
       ) : (
         <>
           <>
-            <MataData title="Cricket Weapon" />
+            <MataData title="PulseCart" />
             <div className="Home_Page">
               <div className="heroSlider_Home">
                 <HeroSlider />;
@@ -47,12 +47,7 @@ function Home() {
                   Featured Products
                 </h2>
                 {products &&
-             
-                
-                       <FeaturedSlider   products ={products}/> }
-                  
-                 
-              
+              <FeaturedSlider   products ={products}/> }
               </div>
 
               <h2 className="trending_heading">Trending Products</h2>

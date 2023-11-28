@@ -2,7 +2,7 @@ import React from "react";
 import { Typography, Container, Grid, Button } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import MetaData from "../component/layouts/MataData/MataData";
-import TermsImage from "../Image/about/tc.jpg";
+import TermsImage from "../Image/about/tc.png";
 import { Link } from "react-router-dom";
 const useStyles = makeStyles((theme) => ({
   about_us: {
@@ -122,21 +122,15 @@ const About_UsPage = () => {
                 About Us
               </Typography>
               <Typography variant="body1" className={classes.introText_about}>
-                CricketWeapon store is an online cricket sports selling startup
-                started in 2019. We have served more than 20,000 customers
-                through social media and other platforms. We are proud to offer
-                our own products under the brand name CW, also known as "Cricket
-                Weapon".
+                Welcome to PulseCart, where shopping meets excitement! At PulseCart, we're more than just an online marketplace; we're a vibrant community dedicated to curating an electrifying shopping experience for you.
+                Our journey began with a simple idea: to infuse energy into every purchase. PulseCart is not just a platform; it's a pulsating marketplace where style, innovation, and quality converge. We believe that shopping should be an exhilarating adventure, and we've crafted PulseCart to reflect that passion.
+                Discover a world of possibilities as you explore our carefully curated selection of products. From cutting-edge electronics to fashion-forward apparel, we've handpicked items that resonate with the pulse of today's trends. PulseCart is your go-to destination for the latest, the coolest, and the most exciting finds.
+                But PulseCart is more than just a collection of products; it's a celebration of individuality and expression. We understand that each purchase tells a unique story, and we're here to help you script yours. Our commitment to customer satisfaction goes beyond the transaction – it's about ensuring that every interaction with PulseCart leaves you energized and satisfied.".
               </Typography>
               <Typography variant="body1" className={classes.introText_about}>
-                CricketWeapon was founded by Lokesh Samant, a talented cricket
-                player who has represented the Under 16 and Under 19 teams.
-                Lokesh started this business to support his expenses and
-                received an overwhelming response. He has sold cricket equipment
-                to more than 20,000 customers till date. Now, he aims to expand
-                his business to an international level by launching his own
-                website and introducing new and genuine cricket products at
-                competitive prices.
+                At the heart of PulseCart is a team of passionate individuals who are dedicated to bringing you the best in every category. We believe in innovation, reliability, and a touch of the extraordinary. Your satisfaction is our priority, and we strive to make every moment spent on PulseCart a thrilling experience.
+                Join us on this exhilarating journey. PulseCart is not just a marketplace; it's a dynamic community of trendsetters, tech enthusiasts, and fashion mavens. Whether you're here for the latest gadgets or the trendiest fashion pieces, PulseCart is your pulse on the hottest trends.
+                Thank you for choosing PulseCart – where the beat of innovation meets the rhythm of style. Shop with us and experience the pulse of excitement!
               </Typography>
             </Grid>
           </Grid>
@@ -150,28 +144,13 @@ const About_UsPage = () => {
             Who We Are
           </Typography>
           <Typography variant="body1" className={classes.infoText_about}>
-            CricketWeapon is dedicated to providing high-quality cricket
-            equipment and accessories to cricket enthusiasts worldwide. Our
-            mission is to empower cricketers with the best tools to enhance
-            their performance on the field. With a focus on innovation,
-            craftsmanship, and customer satisfaction, we have become a trusted
-            brand in the cricket community.
+            At PulseCart, we are innovators at heart. Our team comprises tech enthusiasts, trendsetters, and forward-thinkers who are dedicated to bringing you the latest and greatest in the world of online shopping. We believe in pushing boundaries and staying ahead of the curve, ensuring that PulseCart is not just a marketplace but a hub of innovation.
           </Typography>
           <Typography variant="body1" className={classes.infoText_about}>
-            Since our inception in 2019, we have built a strong customer base
-            and expanded our product range to cater to the diverse needs of
-            players at every level. We take pride in offering genuine cricket
-            products that are carefully curated and tested for quality and
-            performance. Our team of experts works closely with manufacturers to
-            ensure that our customers receive top-notch products.
+            As curators of style, we meticulously handpick products that reflect the pulse of contemporary trends. From fashion-forward apparel to cutting-edge electronics, our selection is a curated blend of what's hot, what's trending, and what's simply irresistible. PulseCart is your go-to destination for style that speaks volumes.
           </Typography>
           <Typography variant="body1" className={classes.infoText_about}>
-            At CricketWeapon, we believe in fostering long-term relationships
-            with our customers. We provide excellent customer service and strive
-            to exceed expectations at every step. We are committed to delivering
-            a seamless online shopping experience and ensuring customer
-            satisfaction. Join us on this exciting journey as we continue to
-            grow and expand our reach in the world of cricket.
+            More than just a platform, PulseCart is a community of excitement. Join a dynamic network of shoppers who share your passion for the extraordinary. Every purchase is not just a transaction; it's a shared experience of energy, enthusiasm, and the joy of discovery. PulseCart is where the thrill of shopping comes to life.
           </Typography>
         </Container>
         <Container className={classes.container_12}>
@@ -183,22 +162,10 @@ const About_UsPage = () => {
             Our Mission
           </Typography>
           <Typography variant="body1" className={classes.infoText_about}>
-            CricketWeapon is driven by the mission to provide high-quality
-            cricket equipment and accessories at affordable prices. We aim to
-            make cricket accessible to players worldwide and support their
-            passion for the sport. Our mission is to offer a wide range of
-            cricket equipment, including bats, balls, protective gear, and
-            accessories, that meet the highest standards of quality and
-            performance.
+          At PulseCart, our mission is clear - to empower your pulse. We strive to go beyond the conventional online shopping experience, curating a platform that resonates with excitement and energy. Our commitment is to provide a dynamic marketplace where innovation meets style, offering products that elevate your pulse and enhance your lifestyle.
           </Typography>
           <Typography variant="body1" className={classes.infoText_about}>
-            We are committed to continuously innovating and improving our
-            product range to meet the evolving needs of cricketers. Our team of
-            experts works closely with manufacturers and conducts rigorous
-            quality testing to ensure that every product we offer delivers
-            exceptional performance on the field. We believe that every player
-            deserves the best tools to enhance their skills and achieve their
-            cricketing goals.
+          We aim to elevate every interaction you have with PulseCart. Whether you're exploring the latest tech gadgets or diving into fashion trends, our mission is to ensure that each moment spent on our platform is a thrilling and satisfying experience. PulseCart is more than a destination; it's a mission to infuse joy, excitement, and innovation into every facet of your shopping journey.
           </Typography>
 
           <div className={classes.buttonContainer_about}>

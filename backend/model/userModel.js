@@ -28,11 +28,9 @@ const userSchema = new mongoose.Schema({
   avatar: {
     public_id: {
       type: String,
-      required: true,
     },
     url: {
       type: String,
-      required: true,
     },
   },
   role: {
@@ -63,8 +61,7 @@ userSchema.pre("save", async function (next) {
 // making method using Mongoose method property => getJWTToken
 userSchema.methods.getJWTToken = function () {
   // we sending in payLoad : Toeknexpiry , userId , or Seceret key, Along with header has algo name , type of JWT
-  return jwt.sign({ id: this._id }, process.env.JWT_SECRET, {
-    expiresIn: process.env.JWT_EXPIRE,
+  return jwt.sign({ id: this._id }, 'topsecret', {
   });
 };
 

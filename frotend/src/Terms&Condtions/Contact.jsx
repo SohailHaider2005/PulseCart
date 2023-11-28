@@ -214,9 +214,9 @@ const ContactForm = () => {
         </Typography>
 
         <Typography variant="body2" className={classes.para_contact}>
-          <span className={classes.para2}>7:00-6:00 MST Monday-Friday</span>
+          <span className={classes.para2}>7:00 A.M - 6:00 P.M Monday-Friday</span>
           <br />
-          <span className={classes.para2}>9:00-4:00 MST Saturday</span>
+          <span className={classes.para2}>9:00 A.M -4:00 P.M Saturday</span>
           <br />
           <span className={classes.para2}>Closed Sunday</span>
         </Typography>
@@ -228,14 +228,10 @@ const ContactForm = () => {
 
         <Typography variant="body2" className={classes.address_contacts}>
           <span style={{ fontWeight: "500", paddingBottom: "0.5rem" }}>
-            CricketWeapon Store, Pvt Ltd.
+            PulseCart, Pvt Ltd.
           </span>
           <br />
-          15130 Sec 22
-          <br />
-          Noida, UP 201301
-          <br />
-          India
+          Pakistan
         </Typography>
 
         <div className={classes.buttonGroup}>
@@ -331,7 +327,8 @@ const ContactForm = () => {
                   }}
                 >
                   <MenuItem value="english">English</MenuItem>
-                  <MenuItem value="hindi">Hindi</MenuItem>
+                  <MenuItem value="Urdu">Urdu</MenuItem>
+                  <MenuItem value="Hindi">Hindi</MenuItem>
                   <MenuItem value="japanese">Japanese</MenuItem>
                   <MenuItem value="chinese">Chinese</MenuItem>
                   <MenuItem value="german">German</MenuItem>

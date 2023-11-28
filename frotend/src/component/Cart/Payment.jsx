@@ -621,7 +621,7 @@ const PaymentComponent = () => {
               >
                 By clicking "Place Order", you agree to our
                 <Link href="#" className={classes.privacyText}>
-                  Cricket Weapon Terms & Conditions
+                PulseCart Terms & Conditions
                 </Link>
               </Typography>
               <Button

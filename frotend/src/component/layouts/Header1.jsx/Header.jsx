@@ -64,7 +64,7 @@ function Header() {
       <div className="header">
         <div className="headerTop">
           <div className="headerTopLeft">
-            <p>We Offer's Free Shipping </p>
+            <p>We Offer Free Shipping </p>
           </div>
           <div className="headerTopRight">
             <div className="headerRetailer">
@@ -74,11 +74,7 @@ function Header() {
               <span>FIND LOCATION</span>
             </div>
 
-            <div className="headerFlag">
-              <span>
-                <FlagSelect value={country} onChange={handleCountryChange} />
-              </span>
-            </div>
+           
 
             <div className="headerLogin">
               {isAuthenticated ? (

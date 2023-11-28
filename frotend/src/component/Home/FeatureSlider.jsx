@@ -49,6 +49,8 @@ const FeaturedSlider = ({ products }) => {
         const { _id, images, name ,price  } = product;
         let newPrice = generateDiscountedPrice(price);
         newPrice = dispalyMoney(newPrice);
+        console.log(price);
+        console.log(newPrice);
         const oldPrice = dispalyMoney(price);
 
         return (

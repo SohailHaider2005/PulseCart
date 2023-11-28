@@ -66,19 +66,19 @@ function NewProduct() {
   const handleImageUpload = () => {
     fileInputRef.current.click();
   };
- const categories = [
-   "Cricket Kits",
-   "Batting Gloves",
-   "Batting Pads",
-   "Bats",
-   "Bags",
-   "Helmets",
-   "Balls",
-   "Stumps",
-   "Shoes",
-   "Clothing",
-   "Accessories",
- ];
+  const categories = [
+    "Electronics",
+    "Clothing and Apparel",
+    "Home and Kitchen",
+    "Beauty and Personal Care",
+    "Books and Literature",
+    "Sports and Outdoors",
+    "Toys and Games",
+    "Health and Fitness",
+    "Jewelry and Accessories",
+    "Automotive",
+    "Furniture and Decor",
+  ];
   useEffect(() => {
     if (error) {
       alert.error(error);

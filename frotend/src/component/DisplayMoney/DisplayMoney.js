@@ -2,7 +2,7 @@
 export const dispalyMoney = function(num) {
   const numFormate = new Intl.NumberFormat("en-IN", {
     style: "currency",
-    currency: "INR",
+    currency: "PKR",
   });
 
   const arr = numFormate.format(num).split(".", 1);

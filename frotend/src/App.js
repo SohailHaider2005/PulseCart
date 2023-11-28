@@ -56,6 +56,7 @@ const LazyProductReviews = React.lazy(() =>
 
 function App() {
   const [stripeApiKey, setStripeApiKey] = useState("");
+  console.log('Chutya');
 
   const dispatch = useDispatch();
 
@@ -383,7 +384,6 @@ function App() {
               </>
             )}
           />
-
           <Route
             exact
             path="/success"
@@ -468,5 +468,5 @@ function App() {
     </>
   );
 }
-
+//The admin email is Admin@gmail.com and the admin password is iamadmin123
 export default App;
