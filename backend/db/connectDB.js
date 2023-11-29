@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+require("dotenv").config({ path: "backend/config/.env" })
 
 function connectDB(){
     mongoose.set("strictQuery", false); 
@@ -11,7 +12,7 @@ function connectDB(){
     };
 
     mongoose   
-        .connect('mongodb://localhost:27017', dbConnectionOptions)
+        .connect(process.env.DB_LINK, dbConnectionOptions)
         .then(function () {
             console.log("DB_connected");
         })

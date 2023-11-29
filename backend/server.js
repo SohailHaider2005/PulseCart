@@ -21,12 +21,11 @@ connectDB();
 // conncet with cloudinary
 
 cloudinary.config({
-  cloud_name: 'dbdfhayzl',
-  api_key: '592552495729622',
-  api_secret: 'MofgTeYy0qpWS2uRYowWzhZuERQ',
+  cloud_name: process.env.CLOUDINARY_NAME,
+  api_key: process.env.API_KEY,
+  api_secret: process.env.API_SECRET,
 });
-
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 const server = app.listen(PORT, () => {
   console.log(`Server is listening on PORT ${5000}`);
