@@ -12,7 +12,7 @@ function connectDB(){
     };
 
     mongoose   
-        .connect(process.env.DB_LINK, dbConnectionOptions)
+        .connect('mongodb+srv://SohailHaider:iamsohail@cluster0.v3chczv.mongodb.net/', dbConnectionOptions)
         .then(function () {
             console.log("DB_connected");
         })
